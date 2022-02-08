@@ -1,0 +1,47 @@
+.whyHireOurService__Container{
+    border: 0px solid green;
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+}
+.sectionHeading{
+    text-align: center;
+    border: 0px solid red;
+    margin-top: 3rem;
+    padding: 60px 0;
+}
+
+.sectionHeading h3 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.sectionHeading h3 span{
+    color: tomato;
+}
+.whos__img_container{
+    border: 0px solid red;
+}
+.whos__img{
+    border: 0px solid green;
+    width: 40%;
+}
+
+.whos__text p{
+    margin-top: 20px;
+    font-size: .9rem;
+}
+
+
+
+@media screen and (max-width: 1124px) {
+    .whos__img_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whos__img{
+        width: 100%;
+    }
+  }

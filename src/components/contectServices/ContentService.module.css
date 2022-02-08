@@ -1,0 +1,63 @@
+.contentService__Container{
+    border: 0px solid green;
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+}
+
+.sectionHeading{
+    text-align: center;
+    border: 0px solid red;
+    margin-top: 3rem;
+    padding: 60px 0;
+}
+
+.sectionHeading h3 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.sectionHeading h5 span{
+    color: tomato;
+}
+
+.sectionHeading h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.contentService__Card__Container{
+    border: 0px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.csCard__Wrapper{
+    border: 0px solid green;
+    margin: 10px 0px;
+    padding: 1rem;
+    width: 20rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.csCard__Wrapper__img{
+    margin-bottom: 10px;
+    width: 4rem;
+}
+.csCard__Wrapper img{
+    width: 100%;
+}
+
+.csCard__Wrapper__text h3{
+    margin-bottom: 10px;
+}
+
+
+.csCard__Wrapper__text p{
+    font-size: .9rem;
+}

@@ -1,0 +1,49 @@
+.BannerInfo__Container{
+    border: 0px solid green;
+    width: 100%;
+    min-height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #0270BB;
+    color: rgb(221, 221, 221); */
+    text-align: center;
+}
+
+.BannerInfo__Container h3{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.BannerInfo__Container p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.BannerInfo__Container p span{
+    color: tomato;
+}
+
+.bannerOrderBtn{
+    border: 1px solid rgb(47, 47, 47);;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin-right: 30px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+}
+
+.bannerOrderBtn a{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
